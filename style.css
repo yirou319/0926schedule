@@ -1,0 +1,39 @@
+body {
+  background: black;
+  font-family: "Zen Maru Gothic", sans-serif;
+}
+
+.title-card h1 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.title-card {
+  background: #d9ffc7;
+  color: black;
+  border-radius: 50px;
+
+  width: 70%;
+  margin: 40px auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.schedule-card {
+  background: #d9ffc7;
+  color: black;
+  border-radius: 40px;
+
+  width: 85%;
+  margin: 20px auto;
+  padding: 20px 30px;
+
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.time {
+  width: 100px;
+  padding-right: 20px;
+  border-right: 2px solid black;
+}
